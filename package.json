@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "A full-stack e-commerce application built with React and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-client": "cd frontend && npm install",
+    "install-server": "cd backend && npm install",
+    "install-all": "npm install && npm run install-client && npm run install-server"
+  },
+  "keywords": [
+    "e-commerce",
+    "react",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "Poorna Premachandra",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
