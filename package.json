@@ -4,8 +4,8 @@
   "description": "A full-stack e-commerce application built with React and Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
+    "start": "node backend/bin/www",
+    "server": "nodemon backend/bin/www",
     "client": "cd frontend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-client": "cd frontend && npm install",
