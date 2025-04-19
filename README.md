@@ -1,14 +1,14 @@
-### A Simple E-Commerce Application
+# A Simple E-Commerce Application
 
 ## Core Features(Proposed)
 
-# User Management:
+### User Management:
 
 - Registration/Login
 - User profiles
 - Role-based access (Admin/Customer)
 
-# Customer Features:
+### Customer Features:
 
 - Browse product catalog with categories
 - Search products
@@ -23,7 +23,7 @@
 - Track order status
 - View order history
 
-# Admin Features:
+### Admin Features:
 
 - Create new products
 - Update existing products
@@ -39,7 +39,7 @@
 - Manage user accounts
 - Monitor sales and inventory
 
-# Advanced Features:
+### Advanced Features:
 
 - Real-time inventory updates
 - Product recommendations
